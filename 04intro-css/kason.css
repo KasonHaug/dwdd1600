@@ -1,0 +1,145 @@
+body {
+    background-color: #0D0D0D;
+    color: white;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #111;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #efeefa;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+/* navigation stuff here */
+nav {
+    background-color: #020014;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #b59efe;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #1f0025;
+    color: #4744ff;
+}
+
+
+nav li a:hover {
+    color: white;
+}
+
+/* main stuff here */
+
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #4744ff;
+}
+
+main h2 {
+    color: #6bb8ee;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: white;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #0D0D0D;
+}
+
+main dl dt {
+    color: #6bffb3;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #9fd0f5;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    color: white;
+}
+
+main strong {
+    font-weight: 700;
+    color: white;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #2a2a2a;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #6bb8ee;
+    width: 200px;
+}
+
+main a {
+    color: #6bb8ee;
+}
+
+main a:hover {
+    color: #e30a7a;
+}
+
+/* footer stuff here */
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: white;
+    letter-spacing: 3px;
+}
